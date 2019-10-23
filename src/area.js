@@ -9,8 +9,7 @@ let w2 = Width*conversion;
 let l2 = Length*conversion;
 let area = w2*l2;
 
-console.log(area);
 
 area = area.toLocaleString("en", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
-console.log(area);
+console.log("\nA(n) " + w + "-by-" + l + "-inch sheet of paper has an area of " + area + " square millimeter(s).");
