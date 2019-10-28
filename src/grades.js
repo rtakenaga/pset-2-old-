@@ -2,7 +2,7 @@ const readlineSync = require("readline-sync");
 
 
 //Homework
-const h1 = readlineSync.question("Enter three homework grades.\n");
+const h1 = readlineSync.question("\nEnter three homework grades.\n");
 const h2 = readlineSync.question("");
 const h3 = readlineSync.question("");
 
